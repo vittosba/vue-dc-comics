@@ -8,6 +8,8 @@
 
     <footer>
       <FooterNav />
+
+      <Social />
     </footer>
   </div>
 </template>
@@ -17,6 +19,7 @@
 import Header from '@/components/Header.vue'
 import Content from '@/components/Content.vue'
 import FooterNav from '@/components/FooterNav.vue'
+import Social from '@/components/Social.vue'
 
 export default {
   name: 'App',
@@ -24,6 +27,7 @@ export default {
     Header,
     Content,
     FooterNav,
+    Social,
   }
 }
 </script>

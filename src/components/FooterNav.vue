@@ -156,7 +156,7 @@ export default {
         position: relative;
         background-image: url(../assets/img/footer-bg.jpg);
         background-size: cover;
-        height: 350px;
+        height: 360px;
         z-index: -2;
         
         .container {
@@ -203,7 +203,7 @@ export default {
                 position: absolute;
                 bottom: 0;
                 right: 0;
-                transform: translateY(20%);
+                transform: translateY(15%);
                 z-index: -1;
             }
         }
