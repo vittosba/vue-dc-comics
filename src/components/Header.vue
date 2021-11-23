@@ -80,28 +80,32 @@ export default {
 <style scoped lang="scss">
 @import '@/styles/variables';
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-
-        nav {
-            ul {
-                display: flex;
-                list-style: none;
-                
-                a {
-                    display: inline-block;
-                    margin: 0 1rem;
-                    padding: 1rem 0;
-                    text-decoration: none;
-                    color: $dark-col;
-                    text-transform: uppercase;
-                    &.active,
-                    &:hover {
-                        color: $primary-col;
-                        border-bottom: 3px solid $primary-col;
+    header {
+        background: $light-col;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+    
+            nav {
+                ul {
+                    display: flex;
+                    list-style: none;
+                    
+                    a {
+                        font-size: 0.9rem;
+                        display: inline-block;
+                        margin: 0 1rem;
+                        padding: 1rem 0;
+                        text-decoration: none;
+                        color: $dark-col;
+                        text-transform: uppercase;
+                        &.active,
+                        &:hover {
+                            color: $primary-col;
+                            border-bottom: 3px solid $primary-col;
+                        }
                     }
                 }
             }
